@@ -1,0 +1,56 @@
+/* Iconos SVG para la web */
+.icon {
+  width: 1.2em;
+  height: 1.2em;
+  vertical-align: middle;
+  margin-right: 0.4em;
+  fill: #7b2ff2;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+  margin-bottom: 2em;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #7b2ff2;
+  font-weight: 600;
+  font-size: 1.1em;
+  transition: color 0.2s;
+}
+
+.navbar a:hover {
+  color: #f7971e;
+}
+
+.section {
+  scroll-margin-top: 80px;
+}
+
+/* Mejoras visuales para los apartados */
+h2 {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+}
+
+.card {
+  background: #f8f6ff;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(123,47,242,0.06);
+  padding: 18px 20px;
+  margin-bottom: 1.5em;
+}
+
+.timeline {
+  border-left: 3px solid #e0c3fc;
+  margin-left: 1em;
+  padding-left: 1.5em;
+}
+
+.timeline li {
+  margin-bottom: 1em;
+}

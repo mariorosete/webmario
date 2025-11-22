@@ -3,37 +3,60 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Mario Rosete | Profesor de Informática</title>
+	<title>Mario Rosete | Big Data & Analítica</title>
 	<link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="icons.css">
 </head>
 <body>
 	<div class="main-container">
-		<h1>Mario Rosete</h1>
-		<h2>Perfil profesional</h2>
-		<p>
-			Estudiante de Máster en Big Data y Análisis de Datos, apasionado por la extracción de valor a partir de grandes volúmenes de información. Con sólidos conocimientos en estadística, programación y visualización de datos, busco prácticas como analista de datos para aplicar mis habilidades en entornos reales y contribuir a la toma de decisiones basada en datos.
-		</p>
+		<nav class="navbar">
+			<a href="#perfil"><svg class="icon" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 20c0-4 16-4 16 0"/></svg>Perfil</a>
+			<a href="#experiencia"><svg class="icon" viewBox="0 0 24 24"><rect x="3" y="7" width="18" height="13" rx="2"/><path d="M16 3v4"/><path d="M8 3v4"/></svg>Experiencia</a>
+			<a href="#formacion"><svg class="icon" viewBox="0 0 24 24"><path d="M12 3l9 4.5-9 4.5-9-4.5z"/><path d="M3 17.5v-7l9 4.5 9-4.5v7"/></svg>Formación</a>
+			<a href="#herramientas"><svg class="icon" viewBox="0 0 24 24"><path d="M12 2v20"/><circle cx="12" cy="7" r="5"/><circle cx="12" cy="17" r="5"/></svg>Herramientas</a>
+		</nav>
 
-		<h2>Experiencia profesional</h2>
-		<ul>
-			<li>Proyecto universitario: Análisis predictivo de ventas utilizando Python, pandas y scikit-learn para una empresa simulada del sector retail.</li>
-			<li>Colaboración en hackathon de datos: Desarrollo de dashboards interactivos con Power BI y Tableau para la visualización de indicadores clave.</li>
-			<li>Prácticas virtuales: Limpieza y análisis exploratorio de datos de clientes para una startup tecnológica (proyecto académico).</li>
-		</ul>
+		<h1 style="text-align:center; margin-bottom:0.2em;">Mario Rosete</h1>
+		<p style="text-align:center; color:#7b2ff2; font-weight:600; margin-top:0;">Big Data & Data Analytics Enthusiast</p>
 
-		<h2>Formación académica</h2>
-		<ul>
-			<li>Máster en Big Data y Análisis de Datos (en curso)</li>
-			<li>Grado en Ingeniería Informática</li>
-			<li>Certificación Google Data Analytics</li>
-			<li>Curso de Machine Learning con Python (Coursera)</li>
-		</ul>
+		<section id="perfil" class="section card">
+			<h2><svg class="icon" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 20c0-4 16-4 16 0"/></svg>Perfil profesional</h2>
+			<p>
+				Estudiante de Máster en Big Data y Análisis de Datos, apasionado por la extracción de valor a partir de grandes volúmenes de información. Con sólidos conocimientos en estadística, programación y visualización de datos, busco prácticas como analista de datos para aplicar mis habilidades en entornos reales y contribuir a la toma de decisiones basada en datos.<br>
+				<strong>Competencias destacadas:</strong> Pensamiento analítico, comunicación efectiva, trabajo en equipo, aprendizaje autónomo, creatividad en la resolución de problemas.
+			</p>
+		</section>
 
-		<h2>Herramientas e idiomas</h2>
-		<ul>
-			<li><strong>Herramientas:</strong> Python, R, SQL, Power BI, Tableau, Excel avanzado, pandas, scikit-learn, Git, Jupyter Notebook, Google Cloud Platform.</li>
-			<li><strong>Idiomas:</strong> Español (nativo), Inglés (B2), Francés (A2)</li>
-		</ul>
+		<section id="experiencia" class="section card">
+			<h2><svg class="icon" viewBox="0 0 24 24"><rect x="3" y="7" width="18" height="13" rx="2"/><path d="M16 3v4"/><path d="M8 3v4"/></svg>Experiencia profesional</h2>
+			<ul class="timeline">
+				<li><strong>Proyecto universitario:</strong> Análisis predictivo de ventas utilizando Python, pandas y scikit-learn para una empresa simulada del sector retail.</li>
+				<li><strong>Colaboración en hackathon de datos:</strong> Desarrollo de dashboards interactivos con Power BI y Tableau para la visualización de indicadores clave.</li>
+				<li><strong>Prácticas virtuales:</strong> Limpieza y análisis exploratorio de datos de clientes para una startup tecnológica (proyecto académico).</li>
+				<li><strong>Asistente de investigación:</strong> Apoyo en la recopilación y análisis de datos para un estudio sobre tendencias de consumo digital (Universidad, 2024).</li>
+				<li><strong>Voluntariado:</strong> Mentoría en talleres de alfabetización digital para jóvenes y adultos.</li>
+			</ul>
+		</section>
+
+		<section id="formacion" class="section card">
+			<h2><svg class="icon" viewBox="0 0 24 24"><path d="M12 3l9 4.5-9 4.5-9-4.5z"/><path d="M3 17.5v-7l9 4.5 9-4.5v7"/></svg>Formación académica</h2>
+			<ul>
+				<li><strong>Máster en Big Data y Análisis de Datos</strong> (en curso) – Universidad Internacional de Datos</li>
+				<li><strong>Grado en Ingeniería Informática</strong> – Universidad Tecnológica de Madrid</li>
+				<li><strong>Certificación Google Data Analytics</strong> (2025)</li>
+				<li><strong>Curso de Machine Learning con Python</strong> (Coursera, 2024)</li>
+				<li><strong>Bachillerato Científico-Tecnológico</strong> – IES Innovación</li>
+			</ul>
+		</section>
+
+		<section id="herramientas" class="section card">
+			<h2><svg class="icon" viewBox="0 0 24 24"><path d="M12 2v20"/><circle cx="12" cy="7" r="5"/><circle cx="12" cy="17" r="5"/></svg>Herramientas e idiomas</h2>
+			<ul>
+				<li><strong>Herramientas:</strong> Python, R, SQL, Power BI, Tableau, Excel avanzado, pandas, scikit-learn, Git, Jupyter Notebook, Google Cloud Platform, Docker, Spark, Hadoop.</li>
+				<li><strong>Idiomas:</strong> Español (nativo), Inglés (B2), Francés (A2)</li>
+				<li><strong>Soft skills:</strong> Liderazgo, gestión del tiempo, adaptabilidad, pensamiento crítico.</li>
+			</ul>
+		</section>
 	</div>
 </body>
 </html>
